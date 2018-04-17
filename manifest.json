@@ -16,7 +16,7 @@
 
 	"permissions":[
 		"cookies",
-		"tabs",
+		"activeTab",
 		"https://www.khanacademy.org/"
 	],
 
