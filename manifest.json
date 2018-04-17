@@ -23,7 +23,7 @@
 	"content_scripts": [{
 
 		"js": ["test.js"],
-		"matches": ["https://khanacademy.org/*"]
+		"matches": ["*://*.khanacademy.org/*"]
 	}]
 
 }
