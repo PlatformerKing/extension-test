@@ -17,13 +17,13 @@
 	"permissions":[
 		"cookies",
 		"tabs",
-		"https://www.google.com/"
+		"https://www.khanacademy.org/"
 	],
 
 	"content_scripts": [{
 
 		"js": ["test.js"],
-		"matches": ["https://google.com/*"]
+		"matches": ["*//khanacademy.org/*"]
 	}]
 
 }
